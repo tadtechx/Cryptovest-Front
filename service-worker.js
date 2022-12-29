@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/cryptovest-frontend/precache-manifest.4f6b017956d6a4c4b580ff3a10521725.js"
+  "/Cryptovest-Front/precache-manifest.cdbc08e64925634aeb75e1d210881882.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/cryptovest-frontend/index.html", {
+workbox.routing.registerNavigationRoute("/Cryptovest-Front/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
